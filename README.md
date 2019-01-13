@@ -4,13 +4,13 @@ GenerateJee7Annotations reads the faces-config.xml and based on the xml elements
 managed-bean-class attr and then read the source code from that specific bean and add the @Named annotation as well 
 as the bean scope annotation on the managed bean.
 
-sample config:-
+sample config xml:-
 
-<managed-bean>
+<!--managed-bean>
   <managed-bean-name>dashboardBean</managed-bean-name>
   <managed-bean-class>be.sofico.web.mgbean.dashboard.DashboardBean</managed-bean-class>
   <managed-bean-scope>view</managed-bean-scope>
- </managed-bean>
+ </managed-bean-->
  
  
  Bean code modified:-
