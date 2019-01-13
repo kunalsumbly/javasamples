@@ -1,7 +1,7 @@
 # javasamples
 
 GenerateJee7Annotations reads the faces-config.xml and based on the xml elements, finds the appropriate bean class based on 
-<managed-bean-class> attr and then read the source code from that specific bean and add the @Named annotation as well 
+managed-bean-class attr and then read the source code from that specific bean and add the @Named annotation as well 
 as the bean scope annotation on the managed bean.
 
 sample config:-
