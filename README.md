@@ -7,14 +7,14 @@ as the bean scope annotation on the managed bean.
 sample config xml:-
 
 &lt;managed-bean&gt; <br/>
-  &lt;managed-bean-name&gt;dashboardBean&lt;/managed-bean-name&gt;
-  &lt;managed-bean-class&gt;be.sofico.web.mgbean.dashboard.DashboardBean&lt;/managed-bean-class&gt;
-  &lt;managed-bean-scope&gt;view&lt;/managed-bean-scope&gt;
- &lt;/managed-bean&gt;
+  &lt;managed-bean-name&gt;dashboardBean&lt;/managed-bean-name&gt; <br/>
+  &lt;managed-bean-class&gt;be.sofico.web.mgbean.dashboard.DashboardBean&lt;/managed-bean-class&gt; <br/>
+  &lt;managed-bean-scope&gt;view&lt;/managed-bean-scope&gt; <br/>
+ &lt;/managed-bean&gt; <br/>
 
  
- Bean code modified:-
- DashboardBean.java 
+ Bean code modified:- <br/>
+ DashboardBean.java <br/>
  
  package be.sofico.web.mgbean.dashboard;
 
