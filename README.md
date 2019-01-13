@@ -5,13 +5,13 @@ managed-bean-class attr and then read the source code from that specific bean an
 as the bean scope annotation on the managed bean.
 
 sample config xml:-
-<html>
-<managed-bean>
+
+&lt;managed-bean&gt;
   <managed-bean-name>dashboardBean</managed-bean-name>
   <managed-bean-class>be.sofico.web.mgbean.dashboard.DashboardBean</managed-bean-class>
   <managed-bean-scope>view</managed-bean-scope>
  </managed-bean>
- </html>
+
  
  Bean code modified:-
  DashboardBean.java 
