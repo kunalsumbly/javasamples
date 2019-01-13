@@ -7,10 +7,10 @@ as the bean scope annotation on the managed bean.
 sample config xml:-
 
 &lt;managed-bean&gt;
-  <managed-bean-name>dashboardBean</managed-bean-name>
-  <managed-bean-class>be.sofico.web.mgbean.dashboard.DashboardBean</managed-bean-class>
-  <managed-bean-scope>view</managed-bean-scope>
- </managed-bean>
+  &lt;managed-bean-name&gt;dashboardBean&lt;/managed-bean-name&gt;
+  &lt;managed-bean-class&gt;be.sofico.web.mgbean.dashboard.DashboardBean&lt;/managed-bean-class&gt;
+  &lt;managed-bean-scope&gt;view&lt;/managed-bean-scope&gt;
+ &lt;/managed-bean&gt;
 
  
  Bean code modified:-
