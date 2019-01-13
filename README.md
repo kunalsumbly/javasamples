@@ -16,31 +16,31 @@ sample config xml:-
  Bean code modified:- <br/>
  DashboardBean.java <br/>
  
- package be.sofico.web.mgbean.dashboard;
+ package be.sofico.web.mgbean.dashboard; <br/>
 
-import javax.faces.view.ViewScoped;  --> generated
-import javax.inject.Named;  --> generated
+import javax.faces.view.ViewScoped;  --> generated <br/>
+import javax.inject.Named;  --> generated <br/>
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.ArrayList; <br/>
+import java.util.HashMap; <br/>
 
-import javax.faces.event.ActionEvent;
+import javax.faces.event.ActionEvent; <br/>
 
-import org.primefaces.event.CloseEvent;
-import org.primefaces.event.DashboardReorderEvent;
-import org.primefaces.event.ToggleEvent;
-import org.primefaces.model.DashboardColumn;
-import org.primefaces.model.DashboardModel;
-import org.primefaces.model.DefaultDashboardModel;
+import org.primefaces.event.CloseEvent; <br/>
+import org.primefaces.event.DashboardReorderEvent; <br/>
+import org.primefaces.event.ToggleEvent; <br/>
+import org.primefaces.model.DashboardColumn; <br/>
+import org.primefaces.model.DashboardModel; <br/>
+import org.primefaces.model.DefaultDashboardModel; <br/>
 
-import be.sofico.web.frmwrk.FacesBean;
-import be.sofico.web.frmwrk.mgbean.WebDashboard;
-import be.sofico.web.model.dashboard.WebDashboardColumn;
-import be.sofico.web.model.dashboard.WebDashboardWidget;
-import be.sofico.web.util.SortableDashboardColumn;
-import be.sofico.web.ws.MWSException;
+import be.sofico.web.frmwrk.FacesBean; <br/>
+import be.sofico.web.frmwrk.mgbean.WebDashboard; <br/>
+import be.sofico.web.model.dashboard.WebDashboardColumn; <br/>
+import be.sofico.web.model.dashboard.WebDashboardWidget; <br/>
+import be.sofico.web.util.SortableDashboardColumn; <br/>
+import be.sofico.web.ws.MWSException;<br/>
 
 
-@Named("dashboardBean")  --> generated
-@ViewScoped --> generated
-public class DashboardBean extends FacesBean {
+@Named("dashboardBean")  --> generated <br/>
+@ViewScoped --> generated <br/>
+public class DashboardBean extends FacesBean { <br/>
